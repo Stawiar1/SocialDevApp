@@ -5,10 +5,11 @@ const db = config.get('mongoURI');
 const connectDB = async () => {
     try{
         await mongoos.connect(db ,{
-            useNewUrlParser: true
+            useNewUrlParser: true,
+            useCreateIndex: true
         })
 
-        console.log('MongoDB Conected...')
+        console.log('Połączono z mongoDB...')
     }catch(err) {
         console.error(err.message);
         //Zamknięcie procesu z błędem

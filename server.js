@@ -2,10 +2,13 @@ const express = require('express');
 
 const connectDb = require('./config/db')
 
+const app = express();
+
 //Połączenie z bazą
 connectDb();
 
-const app = express();
+//Init Middleware
+app.use(express.json({extended: false}));
 
 app.get('/' , (req , res) => res.send('API Running'));
 
