@@ -23,21 +23,27 @@
             <li><a href="login.html">Logowanie</a></li>
         </ul>
     </nav>
-
-    <section class="landing">
-        <div class="dark-overlay">
-            <div class="landing-inner">
-                <h1 class="x-large">SocialDev Connector</h1>
-                <p class="lead">Jesteś developerem? Stwórz swój profil , umieść swoje
-                    portfolio , zamieszczaj posty oraz uzyskaj pomoc od innych programistów!
-
-                    <div class="buttons">
-                        <a href="register.html" class="btn btn-primary">Rejestracja</a>
-                        <a href="login.html" class="btn btn">Logowanie</a>
-                    </div>
-                </p>
-            </div>
+    <section class="container">
+        <!-- ALERT -->
+        <div class="alert alert-danger">
+            Wprowadzone dane są nieprawidłowe
         </div>
+        <h1 class="large text-primary">
+            Logowanie
+        </h1>
+        <p class="lead"><i class="fas fa-user"></i> Zaloguj się</p>
+        <form action="dashboard.html" class="form">
+            <div class="form-group">
+                <input type="email" placeholder="Adres e-mail">
+            <div class="form-group">
+                <input type="password" placeholder="Hasło" minlength="6">
+            </div>
+            </div>
+            <input type="submit" value="Zaloguj się!" class="btn btn-primary"/>
+        </form>
+        <p class="my-1">
+            Nie masz jeszcze konta? <a href="register.html">Zarejestruj się!</a>
+        </p>
     </section>
 </body>
 </html>
