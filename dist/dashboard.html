@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/63a4801a49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <title>Welcome to the SocialDev App</title>
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fas fa-code"></i> SocialDev App
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developerzy</a></li>
+            <li><a href="posts.html">Posty</a></li>
+            <li><a href="dashboard.html">
+                    <i class="fas fa-user"></i>
+                    <span class="hide-sm">Panel Użytkownika</span>
+                </a></li>
+
+            <li><a href="loginhtml">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="hide-sm">Wyloguj się</span>
+                </a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h1 class="large text-primary">
+            Dashboard
+        </h1>
+        <p class="lead"><i class="fas fa-user"></i> Welcome John Doe</p>
+        <div class="dash-buttons">
+            <a href="create-profile.html" class="btn">
+                <i class="fas fa-user-circle text-primary"></i> Edytuj Profil
+            </a>
+            <a href="add-experience.html" class="btn">
+                <i class="fab fa-black-tie text-primary"></i> Dodaj Doświadczenie
+            </a>
+            <a href="add-education.html" class="btn">
+                <i class="fas fa-graduation-cap text-primary"></i> Dodaj szkołę
+            </a>
+        </div>
+        <h2 class="my-2">
+            Doświadczenie
+        </h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firma</th>
+                    <th class="hide-sm">Stanowisko</th>
+                    <th class="hide-sm">Staż pracy</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Microsoft</td>
+                    <td class="hide-sm">Senior Developer</td>
+                    <td class="hide-sm">
+                        Oct 2011 - Obecnie
+                    </td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Usuń
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sun Microsystems</td>
+                    <td class="hide-sm">Senior Developer</td>
+                    <td class="hide-sm">
+                        Oct 2004 - Nov 2010
+                    </td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Usuń
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="my-2">
+            Edukacja
+        </h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Szkoła</th>
+                    <th class="hide-sm">Stopień naukowy</th>
+                    <th class="hide-sm">Lata</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>University of Washington</td>
+                    <td class="hide-sm">Magister</td>
+                    <td class="hide-sm">
+                        Sep 1993 - June 1999
+                    </td>
+                    <td>
+                        <button class="btn btn-danger">
+                            Usuń
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="my-2">
+            <button class="btn btn-danger">
+                <i class="fas fa-user-minus"></i> Usuń moje konto
+            </button>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
