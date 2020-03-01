@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/63a4801a49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <title>Welcome to the SocialDev App</title>
+</head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="index.html"><i class="fas fa-code"></i> SocialDev App</a>
+      </h1>
+      <ul>
+        <li><a href="profiles.html">Developerzy</a></li>
+        <li><a href="posts.html">Posty</a></li>
+        <li>
+          <a href="dashboard.html" title="Dashboard"
+            ><i class="fas fa-user"></i>
+            <span class="hide-sm">Panel Użytkownika</span></a
+          >
+        </li>
+        <li>
+          <a href="login.html" title="Logout">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="hide-sm">Wyloguj się</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="container">
+      <a href="posts.html" class="btn">Wróć</a>
+      <div class="post bg-white p-1 my-1">
+        <div>
+          <a href="profile.html">
+            <img
+              class="round-img"
+              src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+              alt=""
+            />
+            <h4>John Doe</h4>
+          </a>
+        </div>
+        <div>
+          <p class="my-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            possimus corporis sunt necessitatibus! Minus nesciunt soluta
+            suscipit nobis. Amet accusamus distinctio cupiditate blanditiis
+            dolor? Illo perferendis eveniet cum cupiditate aliquam?
+          </p>
+        </div>
+      </div>
+
+      <div class="post-form">
+        <div class="post-form-header bg-primary">
+          <h3>Zostaw komentarz !</h3>
+        </div>
+        <form class="form my-1">
+          <textarea
+            name="text"
+            cols="30"
+            rows="5"
+            placeholder="Comment on this post"
+          ></textarea>
+          <input type="submit" class="btn btn-dark my-1" value="Wyślij" />
+        </form>
+      </div>
+
+      <div class="posts">
+        <div class="post bg-white p-1 my-1">
+          <div>
+            <a href="profile.html">
+              <img
+                class="round-img"
+                src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt=""
+              />
+              <h4>John Doe</h4>
+            </a>
+          </div>
+          <div>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              possimus corporis sunt necessitatibus! Minus nesciunt soluta
+              suscipit nobis. Amet accusamus distinctio cupiditate blanditiis
+              dolor? Illo perferendis eveniet cum cupiditate aliquam?
+            </p>
+          </div>
+        </div>
+
+        <div class="post bg-white p-1 my-1">
+          <div>
+            <a href="profile.html">
+              <img
+                class="round-img"
+                src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt=""
+              />
+              <h4>John Doe</h4>
+            </a>
+          </div>
+          <div>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              possimus corporis sunt necessitatibus! Minus nesciunt soluta
+              suscipit nobis. Amet accusamus distinctio cupiditate blanditiis
+              dolor? Illo perferendis eveniet cum cupiditate aliquam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
